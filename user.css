@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #7c53b8;
+}
+
+p {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #7c53b8;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: #e8d7f2; /* لون بنفسجي فاتح */
+}
+
+form {
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  background-color: #7c53b8;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #a17ecc;
+}
